@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPIE.UEMK</title>
+    <!------Fav Icons CDN-------->
+    <link rel="shortcut icon" href="LOGOS/UEM full.png" type="image/svg+xml+png">
+
+    <!-----Main Style Sheet---->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <!----cdn FOR G-fonts style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!----ICONSCOUT CDN----->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="icons/all.min.css">
+    <link rel="stylesheet" href="icons/fontawesome.min.css">
+    <!-------- Swiper Js CDN ------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+    <style>
+        body {
+            background-image: url("images/bg-texture.png");
+        }
+
+        .courses {
+            margin-top: -0.3rem;
+        }
+
+        #preloader {
+            background: #1b1941 url(images/preloader-iii.gif) no-repeat center;
+            background-size: 25%;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            top: 0;
+            z-index: 100;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!------- Pre-Loader For Webpage ------>
+    <!-- <div id="preloader">
+
+    </div> -->
+
+    <!-------- Navbar Section ------>
+    <nav>
+        <div class="container nav_container">
+            <a href="index.html">
+                <h1 class="logo">SPIE OPTICA <small>UEMK</small></h1>
+            </a>
+            <ul class="nav_menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html" class="active-link">Gallery</a></li>
+                <li><a href="blog.html">Our Blogs</a></li>
+                <li><a href="contact.html">Contacts</a></li>
+            </ul>
+            <button id="open-menu"><i class="uil uil-bars"></i></button>
+            <button id="close-menu"><i class="uil uil-multiply"></i></i></button>
+        </div>
+    </nav>
+
+    <!-------- End of Navbar Section ------>
+
+
+
+
+
+    <!------- Image Gallery Section------->
+
+
+
+    <section class="courses container">
+        <h2>Our Image Gallery</h2>
+        <div class="gallery">
+            <div class="image"><span><img src="images/img-1.jpg" alt=""></span></div>
+            <div class="image"><span><img src="images/img-2.jpg" alt=""></span></div>
+            <div class="image"><span><img src="images/img-3.jpg" alt=""></span></div>
+            <div class="image"><span><img src="images/img-4.jpg" alt=""></span></div>
+            <div class="image"><span><img src="images/img-5.jpg" alt=""></span></div>
+            <div class="image"><span><img src="images/img-6.jpg" alt=""></span></div>
+        </div>
+        </div>
+        <div class="preview-box">
+            <div class="details">
+                <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
+                <span class="icon fas fa-times"></span>
+            </div>
+            <div class="image-box">
+                <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+                <div class="slide next"><i class="fas fa-angle-right"></i></div>
+                <img src="" alt="">
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </section>
+
+    <!------- End of Image Gallery Section------->
+
+
+
+
+
+    <!------ Needed section for delay loader -->
+
+    <div class="loader">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vTLrfrkBDp8?controls=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vTLrfrkBDp8?controls=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/vTLrfrkBDp8?controls=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+    </div>
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/image-handle.js"></script>
+
+</body>
+
+</html>
